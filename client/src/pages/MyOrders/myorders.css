@@ -1,0 +1,19 @@
+.orders-wrapper{
+padding: 30px 10px 30px 10px;
+}
+
+.orders-header{
+	display: flex;
+		justify-content: end;
+		margin: 40px 0px;
+		font-size: 18px;
+		line-height: 18px;
+		width: 100%;
+}
+
+.orders-products{
+
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+}

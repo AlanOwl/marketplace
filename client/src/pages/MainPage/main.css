@@ -1,0 +1,37 @@
+.main-wrapper{
+	padding: 30px 10px 30px 10px;
+}
+
+
+.main-header{
+	display: flex;
+	justify-content: end;
+	margin: 40px 0px;
+	font-size: 18px;
+	line-height: 18px;
+	width: 100%;
+}
+
+.main-products{
+	display: grid;
+	grid-template-columns: repeat(4, 200px);
+	grid-gap: 100px;
+	font-size: 20px;
+	line-height: 24px;
+	padding-top: 30px;
+}
+
+.search-input {
+	border: 1px solid gray;
+	padding: 5px;
+	color: brown;
+	margin-right: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.search-img {
+	width: 20px;
+	height: 20px;
+}

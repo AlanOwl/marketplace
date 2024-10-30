@@ -1,0 +1,28 @@
+.navbar-img{
+	width: 30px;
+	height: 30px;
+}
+
+.navbar{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: aliceblue;
+	border-bottom: 1px solid rgb(125, 141, 187);
+}
+
+
+
+.navbar-menu{
+	display: flex;
+	max-width: 150px;
+	justify-content: space-evenly;
+	width: 100%;
+}
+
+.navbar span{
+	font-size: 32px;
+}

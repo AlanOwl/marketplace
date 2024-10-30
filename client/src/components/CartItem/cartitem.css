@@ -1,0 +1,39 @@
+.cart-item{
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+border: 3px solid rgb(125, 141, 187);
+margin: 40px 0px;
+}
+
+.cart-photo{
+	max-width: 150px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.cart-photo img{
+
+}
+
+.cart-change{
+	max-width: 100px;
+	width: 100%;
+}
+
+.cart-info{
+	display: flex;
+	flex-direction: column;
+	margin-right: 100px;
+margin-left: 20px;
+}
+
+.cart-info span{
+	margin-bottom: 15px;
+}
+
+.cart-change span{
+	margin-right: 10px;
+	margin-left: 10px;
+}
